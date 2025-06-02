@@ -1,0 +1,13 @@
+// Live Server config for VS Code
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Open ShoreSquad with Live Server",
+      "url": "http://localhost:5500/ShoreSquad/index.html",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}
